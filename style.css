@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(15, 7, 41);
+}
+img{
+    width: 75px;
+    height: 35px;
+}
+p.head{
+    border: 1px solid rgb(245, 90, 90);
+    border-radius: 0 20px 20px 0;
+    background-color: rgb(245, 90, 90);
+    width: 45%;
+    font-size: xx-large;
+    font-family: 'Arial Black';
+    font-weight: bolder;
+    color: white;
+    padding: 25px;
+    text-indent: 125px;
+}
+input[type=number]{
+    width: 53%;
+    height: 50px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border-radius: 6px;
+    background: transparent;
+    border-color: rgb(245, 90, 90);
+    color: rgb(245, 90, 90);
+    font-size: 15px;
+}
+input[type=text]{
+    width: 53%;
+    height: 50px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border-radius: 6px;
+    background: transparent;
+    border-color: rgb(245, 90, 90);
+    color: rgb(245, 90, 90);
+    font-size: 15px;
+}
+label{
+    color: rgb(245, 90, 90);
+}
+select{
+    width: 60%;
+    height: 80px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border-radius: 6px;
+    color: rgb(245, 90, 90);
+    background: transparent;
+    border-color: rgb(245, 90, 90);
+    font-size: 15px;
+}
+textarea{
+    background: transparent;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border-radius: 6px;
+    border-color: rgb(245, 90, 90);
+    color: rgb(245, 90, 90);
+    font-size: 15px;
+}
+button{
+    background-color: rgb(245, 90, 90);
+    position: relative;
+    color: white;
+    font-size: 15px;
+    font-family: sans-serif;
+    border-radius: 15px;
+    cursor: pointer;
+    width: 15%;
+    padding: 15px;
+    box-shadow: 0 8px 16px 0 rgba(158, 87, 87, 0.74), 0 6px 20px 0 rgba(158, 87, 87, 0.74);
+}
+.flex-container{
+    display: flex;
+    margin: 5%;
+}
+.flex-item-right{
+    width: 50vw;
+}
+.flex-item-left{
+    width: 50vw;
+}
+span{
+    color: red;
+    font-weight: bolder;
+}

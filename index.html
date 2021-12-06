@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Animi-Form</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" type="image/x-icon" href="/home/meiarasu/Desktop/Neo/Training/animiform/bat.png">
+        <script src="form.js"></script>
+    </head>
+    <body>
+        <p class="head"><img src="/home/meiarasu/Desktop/Neo/Training/animiform/bat.png"> ANIMI-FORM <img src="/home/meiarasu/Desktop/Neo/Training/animiform/bat.png"></p>
+        <form name="animi" onsubmit=" return validForm()" method="post">
+            <div class="flex-container">
+                <div class="flex-item-left">
+                        <label for="aname">ANIMI-Name <span id="mess"></span></label><br>
+                        <input type="text" name="aname"><br><br>
+                        <label for="origin">ANIMI-(ORIGIN-COUNTRY)</label><br>
+                        <select id="origin" name="origin">
+                            <option>India</option>
+                            <option>Japan</option>
+                            <option>United States</option>
+                            <option>London</option>
+                            <option>Birmingham</option>
+                        </select><br><br>
+                        <label for="epi">No.of.Episodes <span id="epimess"></span></label><br>
+                        <input type="number" name="epi" min="1"><br><br>
+                        <label for="rating">YOUR RATING</label><br>
+                        <input type="number" name="rating" min="1" max="10"><br><br>
+                        <label for="award">AWARDS</label><br>
+                        <input type="text" name="award"><br><br>
+                </div>
+                <div class="flex-item-right">
+                        <label for="desc">DESCRIPTION ABOUT THE ANIMI</label><br><br>
+                        <textarea rows="8" cols="60"></textarea><br><br><br>
+                        <button class="button" type="submit">SUBMIT</button>
+                </div>
+            </div>
+        </form>
+    </body>
+</html>
+
+
+
